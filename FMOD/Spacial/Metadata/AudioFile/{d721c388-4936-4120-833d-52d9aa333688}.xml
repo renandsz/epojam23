@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d721c388-4936-4120-833d-52d9aa333688}">
+		<property name="assetPath">
+			<value>SFX/sonar.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.81460317460317455</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2d597dff-d006-4141-bab5-ff5a588d71a0}</destination>
+		</relationship>
+	</object>
+</objects>

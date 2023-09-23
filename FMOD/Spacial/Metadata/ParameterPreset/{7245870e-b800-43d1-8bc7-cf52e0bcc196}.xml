@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7245870e-b800-43d1-8bc7-cf52e0bcc196}">
+		<property name="name">
+			<value>loud</value>
+		</property>
+		<relationship name="folder">
+			<destination>{904ed977-1ee2-4db8-9483-1c64a55bfa78}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92eee194-4122-445f-90bc-bfeb54b623d7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92eee194-4122-445f-90bc-bfeb54b623d7}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

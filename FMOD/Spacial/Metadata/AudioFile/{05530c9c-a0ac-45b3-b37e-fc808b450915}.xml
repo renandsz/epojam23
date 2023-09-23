@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{05530c9c-a0ac-45b3-b37e-fc808b450915}">
+		<property name="assetPath">
+			<value>SFX/ballready.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.32446712018140589</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2d597dff-d006-4141-bab5-ff5a588d71a0}</destination>
+		</relationship>
+	</object>
+</objects>

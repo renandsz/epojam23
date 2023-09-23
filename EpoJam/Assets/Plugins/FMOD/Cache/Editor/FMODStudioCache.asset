@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8698207739607522988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Victory
+  m_EditorClassIdentifier: 
+  Path: event:/Victory
+  Guid:
+    Data1: -1829943789
+    Data2: 1228532886
+    Data3: 450830223
+    Data4: -188235175
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
 --- !u!114 &-7035801302128068063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26,6 +53,57 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-6751514981680399604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Metronome/loud
+  m_EditorClassIdentifier: 
+  Name: loud
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4236019233
+    data2: 3046044542
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5363651192593771274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sonar
+  m_EditorClassIdentifier: 
+  Path: event:/Sonar
+  Guid:
+    Data1: -511230156
+    Data2: 1333447585
+    Data3: -679107684
+    Data4: 534203120
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 200
   Length: 0
 --- !u!114 &-3380535331229462481
 MonoBehaviour:
@@ -69,11 +147,65 @@ MonoBehaviour:
   Path: ../FMOD/Spacial/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638310741773641042
+  lastModified: 638310876902552125
   FileSizes:
   - Name: Desktop
-    Value: 222400
+    Value: 477408
   Exists: 1
+--- !u!114 &-2427749226592299695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Birds3D
+  m_EditorClassIdentifier: 
+  Path: event:/Birds3D
+  Guid:
+    Data1: 648040674
+    Data2: 1189291477
+    Data3: 2086829734
+    Data4: -1769737873
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13715
+--- !u!114 &-454442833725793002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BallReady
+  m_EditorClassIdentifier: 
+  Path: event:/BallReady
+  Guid:
+    Data1: 829222033
+    Data2: 1267932869
+    Data3: 1946321066
+    Data4: -361575738
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,12 +226,18 @@ MonoBehaviour:
   - {fileID: -7035801302128068063}
   - {fileID: 1474068892094213023}
   - {fileID: 7740188229310755517}
+  - {fileID: 5865501256311053364}
+  - {fileID: -2427749226592299695}
+  - {fileID: -8698207739607522988}
+  - {fileID: 8951468118170233781}
+  - {fileID: -5363651192593771274}
+  - {fileID: -454442833725793002}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3262382147444149833}
   StringsBanks:
   - {fileID: 119342042248759394}
-  cacheTime: 638310741773666153
+  cacheTime: 638310876902582456
   cacheVersion: 131591
 --- !u!114 &119342042248759394
 MonoBehaviour:
@@ -116,10 +254,10 @@ MonoBehaviour:
   Path: ../FMOD/Spacial/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638310741773666153
+  lastModified: 638310876902582456
   FileSizes:
   - Name: Desktop
-    Value: 878
+    Value: 1180
   Exists: 1
 --- !u!114 &1474068892094213023
 MonoBehaviour:
@@ -148,6 +286,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 14769
+--- !u!114 &5865501256311053364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Birds
+  Guid:
+    Data1: -2103348641
+    Data2: 1239492864
+    Data3: 1450393991
+    Data4: -1215343073
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13715
 --- !u!114 &7740188229310755517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,6 +337,34 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8951468118170233781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Metronome
+  m_EditorClassIdentifier: 
+  Path: event:/Metronome
+  Guid:
+    Data1: 1716838188
+    Data2: 1135239141
+    Data3: -295488365
+    Data4: -1157654462
+  Banks:
+  - {fileID: -3262382147444149833}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6751514981680399604}
   MinDistance: 1
   MaxDistance: 20
   Length: 0

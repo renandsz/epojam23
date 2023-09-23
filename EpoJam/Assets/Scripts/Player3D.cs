@@ -78,6 +78,7 @@ public class Player3D : MonoBehaviour
 
     void LoadMenu()
     {
+        GameObject.Find("Ambience").GetComponent<StudioEventEmitter>().Stop();
         SceneManager.LoadScene(0);
     }
 

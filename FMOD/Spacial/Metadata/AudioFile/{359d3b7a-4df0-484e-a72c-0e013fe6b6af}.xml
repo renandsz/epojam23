@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{359d3b7a-4df0-484e-a72c-0e013fe6b6af}">
+		<property name="assetPath">
+			<value>SFX/hole.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.51083900226757373</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{2d597dff-d006-4141-bab5-ff5a588d71a0}</destination>
+		</relationship>
+	</object>
+</objects>
